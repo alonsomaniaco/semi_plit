@@ -1,0 +1,34 @@
+semi_split.semi_split.*:
+  type: config_entity
+  label: 'Configuration Semi Split setting'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    description:
+      type: label
+      label: 'Description'
+    weight:
+      type: integer
+      label: 'Weight'
+    status:
+      type: boolean
+      label: 'Active'
+    folder:
+      type: string
+      label: 'Folder'
+    module:
+      type: sequence
+      label: 'Filtered modules'
+      sequence:
+        type: integer
+        label: 'Weight'
+    theme:
+      type: sequence
+      label: 'Filtered themes'
+      sequence:
+        type: integer
+        label: 'Weight'

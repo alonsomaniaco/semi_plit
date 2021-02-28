@@ -1,0 +1,3 @@
+administer configuration semi split:
+  title: 'Administer configuration semi split'
+  restrict access: true

@@ -1,0 +1,5 @@
+entity.semi_split.add_form:
+  route_name: 'entity.semi_split.add_form'
+  title: 'Add Configuration Semi Split setting'
+  appears_on:
+    - entity.semi_split.collection

@@ -1,0 +1,6 @@
+# Configuration Semi Split setting menu items definition
+entity.semi_split.collection:
+  title: 'Configuration Semi Split settings'
+  description: 'List Configuration Semi Split settings.'
+  route_name: entity.semi_split.collection
+  parent: system.admin_config_development
