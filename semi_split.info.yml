@@ -1,0 +1,5 @@
+name: Configuration Semi Split
+type: module
+description: Configuration module to be able to split configs on semi splits
+core_version_requirement: ^8.8 || ^9
+package: Config
