@@ -1,0 +1,5 @@
+semi-split-form:
+  version: 1.x
+  css:
+    component:
+      css/semi_split_form.css: {}
